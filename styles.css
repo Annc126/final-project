@@ -1,0 +1,17 @@
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*NAVIGATION BAR*/
+.nav__logo--img {
+ height: 40px;
+ width: 40px;
+ 
+}
+
+
+
+  
