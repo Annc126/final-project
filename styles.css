@@ -9,6 +9,11 @@
   cursor: pointer;
 }
 
+header {
+  display: flex;
+  margin-top: 24;
+}
+
 
 
 /*NAVIGATION BAR*/
@@ -132,5 +137,16 @@ nav {
   font-weight: 700;
   font-size: 16px;
   transition: all 300mx ease;
+}
+
+.header__customers {
+  margin-top: 16px;
+  padding-right: 128px;
+  opacity: 0.5;
+}
+
+img {
+  width: 100%;
+  margin-top: 32px;
 }
 
