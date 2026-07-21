@@ -145,6 +145,12 @@ nav {
   opacity: 0.5;
 }
 
+.header__description {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 img {
   width: 100%;
   margin-top: 32px;
