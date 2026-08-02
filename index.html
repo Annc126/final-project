@@ -8,41 +8,46 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
+<body>
   <nav>
-    <div class="row nav__row">
-      <div class="nav__logo">
-        <img class="nav__logo--img"
-          src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Treact logo"/>
-        <div class="nav__logo--title">Treact</div>
+      <div class="row nav__row">
+        <div class="nav__logo">
+          <img class="nav__logo--img"
+            src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Treact logo"/>
+          <div class="nav__logo--title">Treact</div>
+        </div>
+      
+        <div class="nav__links">
+          <a href="#" class="nav__link">About</a>
+          <a href="#" class="nav__link">Blog</a>
+          <a href="#" class="nav__link">Pricing</a>
+          <a href="#" class="nav__link">Contact Us</a>
+          <a href="#" class="nav__link login">Login</a>
+          <a href="#" class="nav__link nav__link--primary ">Sign Up</a>
+        </div>
+        <button class="btn__menu" onclick="openMenu()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
       </div>
-    
-      <div class="nav__links">
-        <a href="#" class="nav__link">About</a>
-        <a href="#" class="nav__link">Blog</a>
-        <a href="#" class="nav__link">Pricing</a>
-        <a href="#" class="nav__link">Contact Us</a>
-        <a href="#" class="nav__link login">Login</a>
-        <a href="#" class="nav__link nav__link--primary ">Sign Up</a>
-      </div>
-      <button class="btn__menu" onclick="openMenu()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg></button>
-    </div>
-  </nav>
+    </nav>
 
-  <header id="landing">
-    <div class="row">
-      <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
-      <p class="header__description--para">Our templates are easy to set up, understand, and customize. Fully modular components with a variety of pages and components.</p>
-      <div class="header__email">
-        <input-type="text" class="header__email--input" placeholder="Your E-mail Address">
-        <button class="header__email--btn">Get Started</button>
+    <header id="landing">
+      <div class="row">
+        <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
+        <p class="header__description--para">Our templates are easy to set up, understand, and customize. Fully modular components with a variety of pages and components.</p>
+        <div class="header__email">
+          <input type="text" class="header__email--input" 
+          placeholder="Your E-mail Address">
+          
+          <button class="header__email--btn">Get Started</button>
+        </div>
       </div>
-    </div>
     </header>
+</body>
+</html>
 
 
-
-  
+    
