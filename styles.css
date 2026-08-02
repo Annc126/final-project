@@ -63,9 +63,8 @@ button {
   padding-bottom: 2px;
 }
 
-.login {
-  margin-left: 48px;
-}
+
+
 
 .nav__link--primary {
   margin: 0;
@@ -99,6 +98,10 @@ a {
   text-decoration: none;
 }
 
+.login {
+  margin-left: 48px;
+}
+
 @media (max-width: 1024px) {
   .btn__menu {
     display: block;
@@ -115,7 +118,7 @@ a {
 .header__email--btn {
   z-index: 2;
   margin: 8px;
-  height: (100% - 16px);
+  height: calc(100% - 16px);
   border-radius: 500px;
   width: 160px;
   border: none;
@@ -135,12 +138,10 @@ a {
 }
 
 #landing h1{
-  
   text-align: center;
   margin-top: 100px;;
   margin-bottom: 24px;
   font-size: 32px;
-  
 }
 
 .header__description {
@@ -152,16 +153,28 @@ a {
   display: flex;
   text-align: center;
   margin: 0 auto
-
 }
 
 .header__email {
   padding: 20px 192px 20px 32px;
   position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+header__email {
+  width: 100%;
+  max-width: 448px;
+  height: 68px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  ;
 }
 
 .header__email--input {
   width: 100%;
+  max-width: 500px;
   border-radius: 500px;
   border: 2px solid rgb(229, 231, 235);
   padding: 20px 192px 20px 32px;
@@ -174,6 +187,13 @@ a {
   z-index: 1;
   transition: border-color 300ms;
   }
+
+.header__customers--title {
+  margin-top: 80px;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
+}
 
   
 
