@@ -18,6 +18,24 @@ button {
   cursor: pointer;
 }
 
+img {
+  width: 300px
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
 .row {
   width: 100%;
   max-width: 1306px;
@@ -166,6 +184,7 @@ header {
   max-width: 400px;
   margin-top: 16px;
   opacity: 0.5;
+  font-size: 32px;
 }
 
 .header__img--wrapper {
@@ -235,11 +254,6 @@ header {
   margin-top: 48px;
 }
 
-.header__customers {
-  max-width: 520px;
-}
-}
-
 @media (max-width: 640px) {
     .nav__row {
       height: 104px;
@@ -264,26 +278,16 @@ header {
       }
     }
 
+  /*FEATURES*/
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .features__para {
+    font-size: 18px;
+    font-weight: 500;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
