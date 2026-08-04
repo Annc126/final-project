@@ -202,6 +202,7 @@ header {
   h1 {
     font-size: 36px;
   }
+}
 
 .header__description--para {
   font-size: 16px;
@@ -211,6 +212,7 @@ header {
   .row {
     padding: 0 24px;
   }
+}
 
  .nav__links {
   display: none;
@@ -262,7 +264,7 @@ header {
 .header__img--wrapper {
   margin-top: 48px;
 }
-
+}
 @media (max-width: 640px) {
     .nav__row {
       height: 104px;
