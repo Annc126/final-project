@@ -259,12 +259,13 @@ header {
 .header__description--para {
   margin: 20px 0;
 }
+}
 
 .header__customers--title,
 .header__img--wrapper {
   margin-top: 48px;
 }
-}
+
 @media (max-width: 640px) {
     .nav__row {
       height: 104px;
