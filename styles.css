@@ -41,7 +41,7 @@ p {
 .row {
   display: flex;
   width: 100%;
-  max-width: 1306px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -484,12 +484,10 @@ img {
 
 img {
   width: 100%;
-}
-
-img {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+
 
 .steps__description {
   padding: 32px 0;
@@ -520,22 +518,25 @@ img {
 
 h2 {
   display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  font-size: 1.5em; 
+  margin: 0.83em 0;
   unicode-bidi: isolate;
 }
 
 .step {
   display: flex;
   align-items: flex-start;
-  margin-top: 32px;
+  margin-top: 20px;
 }
 
 div {
   unicode-bidi: isolate;
+}
+
+@media (max-width: 728px) {
+  .step {
+    flex-direction: column;
+  }
 }
 
 .step__title {
