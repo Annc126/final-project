@@ -305,18 +305,32 @@ header {
   
   .features {
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
+    gap: 24px;
+    width: 100%;
+  }
+
+   
+
+  .features__list {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
   }
 
   .feature {
     width: calc(100% / 3);
+    padding: 32px 24px;
   }
 
-  .features__list {
+  .feature__row {
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .feature__text {
+    margin-left: 16px;
   }
 
   .features__tag {
@@ -357,22 +371,7 @@ header {
     letter-spacing: 0.025em;
   }
 
-  .feature__row {
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .feature__text {
-    margin-left: 16px;
-  }
-
-  .feature__text {
-    color: #243e63;
-    font-size: 16px;
-    margin: 16px 0 0;
-  }
-
-  .feature__img {
+.feature__img {
     width: 24px;
     height: 24px;
   }
