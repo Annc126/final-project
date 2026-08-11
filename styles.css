@@ -327,6 +327,9 @@ header {
       padding: 32px 8px;
       margin: 0 16px;
     }
+    .section__para {
+      font-size: 16px;
+    }
   }
 
   .feature__row {
@@ -349,6 +352,8 @@ header {
   .features__para {
     font-size: 18px;
     font-weight: 500;
+    color: #7caba1;
+
   }
 
   .row__narrow {
@@ -395,6 +400,8 @@ header {
 
   /*QUALITY WORK*/
 
+
+
   .section {
     padding: 0 32px;
   }
@@ -436,6 +443,15 @@ header {
 .quality .section__title,
 .values .section__title {
   line-height: 1.25;
+}
+
+@media (max-width: 1024px) {
+  .section__title {
+    font-size: 36px;
+  }
+  .quality__description {
+    margin-right: 0px 48px;
+  }
 }
 
 .section__title {
