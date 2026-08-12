@@ -401,7 +401,6 @@ header {
   /*QUALITY WORK*/
 
 
-
   .section {
     padding: 0 32px;
   }
@@ -412,8 +411,8 @@ header {
 
  .quality .row {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
  } 
 
  .row {
@@ -449,11 +448,21 @@ header {
   .section__title {
     font-size: 36px;
   }
+}
+
+@media (max-width: 1024px) {
+  .section__para {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
   .quality__description {
     margin-right: 0px;
     padding-right: 48px;
   }
 }
+
 
 .section__title {
   font-size: 48px;
@@ -565,6 +574,12 @@ img {
 .steps__description, 
 .steps__img--wrapper {
   width: 50%;
+}
+
+
+.steps .row {
+  display: flex;
+  align-items: center;
 }
 
 .section__tag {
